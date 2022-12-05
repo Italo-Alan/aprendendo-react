@@ -1,6 +1,6 @@
-import Button from "./components/Button";
 import { Home } from "./pages/home";
 import { Login } from "./pages/login";
+import { Feed } from "./pages/feed";
 import {
   BrowserRouter as Router,
   Routes,
@@ -14,21 +14,9 @@ function App() {
       <Routes>
         <Route path="/" element ={<Home/>}/>
         <Route path="/login" element ={<Login/>}/>
+        <Route path="/feed" element ={<Feed/>}/>
       </Routes>
     </Router>
-
-
-
-
-    // <div className="App">
-    //   <h1>
-    //     Olá, mundo!
-    //   </h1>
-    //   <Button title="Entrar"/>
-    //   <Button title="Sair"/>
-    //   <Button title="Fechar"/>
-    //   <Button title="Salvar"/>
-    // </div>
   );
 }
 

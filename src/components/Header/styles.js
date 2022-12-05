@@ -44,16 +44,20 @@ export const BuscarInputContainer = styled.div`
     align-items: center;
 `
 export const Menu = styled.a`
-    font-family: 'Open Sans';
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 25px;
     color: #fff;
     margin-right: 12px;
     text-decoration: none;
+    
+    &:hover{
+        cursor: pointer;
+    } 
 `
 export const MenuRight = styled.a`
-    font-family: 'Open Sans';
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-size: 1rem;
     line-height: 25px;
