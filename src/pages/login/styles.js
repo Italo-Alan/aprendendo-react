@@ -66,17 +66,23 @@ export const EsqueciText = styled.p`
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
-
     color: #e5e44e;
+
+        &{
+            cursor: pointer;
+        }
 ` 
 export const CriarText = styled.p`
-    font-family: 'Nunito', sans-serif;;
+    font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
-
     color: #E23DD7;
+
+    &:hover{
+        cursor: pointer;
+    }
 ` 
 
 export const Wrapper = styled.div`
